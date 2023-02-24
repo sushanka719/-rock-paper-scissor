@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="whole">
+    <div class="container">
+        <div class="logo">
+        <h1>Paper</h1>
+        <h1>Rock</h1>
+        <h1>Scissor</h1>
+    </div>
+        <div class="main">
+        <div class="sidebar">
+            <h2>Score</h2>
+        </div>
+        <div id="score-board">
+            <span>0</span>
+        </div>
+        </div>
+    </div>
+    <div class="game-ui">
+        <h1>Pick a Move</h1>
+        <div class="select-options">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissor">Scissor</button>
+        </div>
+    </div>
+    <div class="result">
+        <h1>My choice : <span id="myself"></span></h1>
+        <h1>Computer : <span id="computer"></span></h1>
+        <h1>Result : <span id="result"></span></h1>
+        <button class="score-reset">Reset score</button>
+    </div>
+    </div>
+<script src="app.js"></script>  
+</body>
+</html>
